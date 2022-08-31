@@ -15,5 +15,4 @@ public class EmployeePayrollDTO {
     public String toString(){
         return "name = "+Name+", Salary = "+Salary;
     }
-
 }
