@@ -12,7 +12,4 @@ public class EmployeePayrollDTO {
         this.Name = Name;
         this.Salary = Salary;
     }
-    public String toString(){
-        return "name = "+Name+", Salary = "+Salary;
-    }
 }

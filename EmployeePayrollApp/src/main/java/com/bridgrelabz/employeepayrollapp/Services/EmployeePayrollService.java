@@ -17,7 +17,7 @@ public class EmployeePayrollService implements IEmployeePayrollService{
     }
 
     public EmployeePayrollData getEmployeePayrollDataById(int empId) {
-       return employeePayrollDataList.get(empId);
+       return employeePayrollDataList.get(empId-1);
     }
 
     public EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO empPayrollDTO) {
@@ -27,8 +27,8 @@ public class EmployeePayrollService implements IEmployeePayrollService{
         return empData;
     }
 
-    public EmployeePayrollData updateEmployeePayrollData(int empId , EmployeePayrollDTO empPayrollDTO) {
-    EmployeePayrollData empData = this.getEmployeePayrollDataById(empId);
+    public EmployeePayrollData updateEmployeePayrollData(int empId, EmployeePayrollDTO empPayrollDTO) {
+    EmployeePayrollData empData = this.getEmployeePayrollDataById(empId-1);
     empData.setName(empPayrollDTO.Name);
     empData.setSalary(empPayrollDTO.Salary);
     employeePayrollDataList.set(empId,empData);
@@ -36,6 +36,6 @@ public class EmployeePayrollService implements IEmployeePayrollService{
     }
 
     public void deleteEmployeePayrollData(int empId) {
-    employeePayrollDataList.remove(empId);
+    employeePayrollDataList.remove(empId-1);
     }
 }
