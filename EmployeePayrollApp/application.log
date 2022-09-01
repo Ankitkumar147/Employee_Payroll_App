@@ -1,0 +1,267 @@
+2022-09-01T11:24:30.401+05:30  WARN 20000 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-09-01T11:24:31.730+05:30  WARN 20000 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-01T11:46:56.071+05:30 ERROR 10756 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n "
+    Origin: class path resource [application.properties] - 8:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T11:49:14.786+05:30 ERROR 2020 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 8:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T11:50:02.211+05:30 ERROR 24868 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 8:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T18:04:50.440+05:30 ERROR 30008 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 8:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T22:41:33.124+05:30 ERROR 28184 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 8:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T22:45:20.038+05:30 ERROR 22072 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 8:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T22:46:12.658+05:30 ERROR 22000 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 8:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T22:52:19.670+05:30 ERROR 2100 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 7:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T22:59:42.259+05:30 ERROR 17932 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.console' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.console
+    Value: "%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n"
+    Origin: class path resource [application.properties] - 7:23
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.%d{yyyy-MM-dd HH:mm:ss.SSSS} [%level] [%thread] [%logger{5}:%line] %msg%n)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2022-09-01T23:02:07.732+05:30  INFO 14300 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 17.0.2 on LAPTOP-LKLU2LAG with PID 14300 (C:\Users\shweta chauhan\CFP-186\Practice\Day4\EmployeePayrollApp\target\classes started by shweta chauhan in C:\Users\shweta chauhan\CFP-186\Practice\Day4\EmployeePayrollApp)
+2022-09-01T23:02:07.738+05:30 DEBUG 14300 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0-SNAPSHOT
+2022-09-01T23:02:07.739+05:30  INFO 14300 --- [restartedMain] c.b.e.EmployeePayrollApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-09-01T23:02:07.827+05:30  INFO 14300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-01T23:02:07.828+05:30  INFO 14300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-01T23:02:08.967+05:30  INFO 14300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-01T23:02:09.001+05:30  INFO 14300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2022-09-01T23:02:09.900+05:30  INFO 14300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-01T23:02:09.915+05:30  INFO 14300 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-01T23:02:09.916+05:30  INFO 14300 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.22]
+2022-09-01T23:02:10.270+05:30  INFO 14300 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-01T23:02:10.270+05:30  INFO 14300 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2441 ms
+2022-09-01T23:02:10.469+05:30  INFO 14300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-01T23:02:11.131+05:30  INFO 14300 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fd135e
+2022-09-01T23:02:11.135+05:30  INFO 14300 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-01T23:02:12.047+05:30  INFO 14300 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-09-01T23:02:12.454+05:30  INFO 14300 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-01T23:02:12.530+05:30  WARN 14300 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-01T23:02:12.951+05:30  INFO 14300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-01T23:02:13.001+05:30  INFO 14300 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-01T23:02:13.011+05:30  INFO 14300 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 5.918 seconds (process running for 7.261)
+2022-09-01T23:02:13.014+05:30  INFO 14300 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started.
