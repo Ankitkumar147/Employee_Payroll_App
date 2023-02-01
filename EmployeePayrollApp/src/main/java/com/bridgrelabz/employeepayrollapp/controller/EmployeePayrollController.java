@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/employeepayrollservice")
+@CrossOrigin
 public class EmployeePayrollController {
 
     @Autowired
@@ -21,9 +22,19 @@ public class EmployeePayrollController {
     public ResponseEntity<ResponseDTO> getEmployeePayrollData(){
         List<EmployeePayrollData> empDataList  = null;
         empDataList = employeePayrollService.getEmployeePayrollData();
-        ResponseDTO respDTO = new ResponseDTO("Get call Successfully",empDataList);
+        ResponseDTO respDTO = new ResponseDTO("Get call Successful",empDataList);
         return new ResponseEntity<ResponseDTO>(respDTO , HttpStatus.OK);
     }
+
+    @GetMapping("/department/{department}")
+        public ResponseEntity<ResponseDTO> getEmployeePayrollData(@PathVariable("department") String department){
+            List<EmployeePayrollData> empDataList = null;
+            empDataList = employeePayrollService.getEmployeesByDepartment(department);
+            ResponseDTO respDTO = new ResponseDTO("Get Call For the Given Id is Successful", empDataList);
+            return new ResponseEntity<ResponseDTO>(respDTO,HttpStatus.OK);
+        }
+
+
     @GetMapping("/get/{empId}")
     public ResponseEntity<ResponseDTO> getEmployeePayrollData(@PathVariable("empId")int empId) {
         EmployeePayrollData empData = null;

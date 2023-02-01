@@ -1,41 +1,48 @@
 package com.bridgrelabz.employeepayrollapp.Model;
 
 import com.bridgrelabz.employeepayrollapp.DTO.EmployeePayrollDTO;
+import jakarta.persistence.*;
+import lombok.Data;
 
+import java.time.LocalDate;
+import java.util.List;
+
+@Entity
+@Table(name = "employee_Payroll")
+@Data
 public class EmployeePayrollData {
 
-    public int employeeID;
-    public String Name;
-    public  long Salary;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "employee_id")
+    private int id;
+    @Column(name = "name")
+    private String name;
+    private long salary;
+    private String gender;
+    private LocalDate startDate;
+    private String note;
+    private String profilePic;
+
+    @ElementCollection
+    @CollectionTable(name = "employee_department", joinColumns = @JoinColumn(name = "id"))
+    @Column(name = "department")
+    public List<String> department;
 
     public EmployeePayrollData(){
-
-    }
-    public EmployeePayrollData(int empId, EmployeePayrollDTO empPayrollDTO){
-        this.employeeID = empId;
-        this.Name = empPayrollDTO.Name;
-        this.Salary = empPayrollDTO.Salary;
     }
 
-    public int getEmployeeID() {
-        return employeeID;
+    public EmployeePayrollData(EmployeePayrollDTO empPayrollDTO) {
+        this.updateEmployeePayrollData(empPayrollDTO);
     }
 
-    public void setEmployeeID(int employeeID) {
-        this.employeeID = employeeID;
-    }
-    public String getName() {
-        return Name;
-    }
-
-    public void setName(String name) {
-        Name = name;
-    }
-    public long getSalary() {
-        return Salary;
-    }
-
-    public void setSalary(long salary) {
-        Salary = salary;
+    public void updateEmployeePayrollData(EmployeePayrollDTO empPayrollDTO){
+        this.name = empPayrollDTO.name;
+        this.salary = empPayrollDTO.salary;
+        this.gender = empPayrollDTO.gender;
+        this.note = empPayrollDTO.note;
+        this.startDate = empPayrollDTO.startDate;
+        this.profilePic = empPayrollDTO.profilePic;
+        this.department = empPayrollDTO.department;
     }
 }
